@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:background="@color/colorBottomNavigationActiveColored"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/face" />
+
+    <TextView
+        android:id="@+id/singleunit2_testname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/circleImageView2"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@+id/circleImageView2"
+        android:text="JEE Mains Test - 1"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/singleunit2_nos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/singleunit2_testname"
+        android:layout_below="@+id/singleunit2_testname"
+        android:text="10 questions"
+        android:textColor="@color/colorBottomNavigationInactive" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Kinematics"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_toEndOf="@id/button2"
+        android:background="@android:color/darker_gray"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Physics Practice Tests"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+
+    <ImageView
+        android:id="@+id/singleunit2_nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/singleunit2_nos"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="26dp"
+        app:srcCompat="@drawable/ic_chevron_right_black_18dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/ic_favorite_border_black_24dp" />
+
+    <ImageView
+        android:id="@+id/singleunit2_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/singleunit2_nos"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/button2"
+        app:srcCompat="@drawable/ic_save_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginLeft="15dp"
+        android:text="Like"
+        android:textColor="@color/colorBottomNavigationInactive" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView14"
+        android:layout_marginLeft="65dp"
+        android:text="save"
+        android:textColor="@color/colorBottomNavigationInactive" />
+
+</RelativeLayout>

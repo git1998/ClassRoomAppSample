@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">StudentApp</string>
+
+    <string-array name="subjects">
+        <item>physics |</item>
+        <item>Physics ||</item>
+    </string-array>
+
+    <string-array name="topics">
+        <item>1:Electric Charges and Fields</item>
+        <item>2:Electrostatic Potential and Capacitance</item>
+        <item>3:Current Electricity</item>
+        <item>4:Moving Charges and Magnetism</item>
+        <item>5:Magnetism And Matter</item>
+        <item>6:Electromagnetic Induction</item>
+        <item>7:Alternating Current</item>
+        <item>8:Electromagnetic Waves</item>
+        <item>9:Ray Optics and Optical Instruments</item>
+        <item>10:Wave Optics</item>
+        <item>11:Dual Nature of Radiation and Matter</item>
+        <item>12:Atoms</item>
+        <item>13:Nuclei</item>
+        <item>14:Semiconductor Electronic: Material, Devices And Simple Circuits</item>
+        <item>15:Communication Systems</item>
+    </string-array>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

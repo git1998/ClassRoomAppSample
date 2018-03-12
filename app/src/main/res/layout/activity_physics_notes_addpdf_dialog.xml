@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+
+    android:background="?android:attr/colorForeground">
+
+
+    <ImageView
+        android:id="@+id/addpdf_nextbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/next_logo" />
+
+    <EditText
+        android:id="@+id/addpdf_testname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addtest_numberofquestions"
+        android:layout_alignStart="@+id/addtest_numberofquestions"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="21dp"
+        android:hint="             pdf name               "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHint="@color/colorBottomNavigationInactive" />
+
+
+    <LinearLayout
+        android:id="@+id/addpdf_attachpdf"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/ic_attach_file_black_36dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Attach Pdf"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+    </LinearLayout>
+
+</LinearLayout>

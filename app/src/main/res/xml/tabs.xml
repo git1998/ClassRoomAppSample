@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs>
+    <tab
+        id="@+id/tab_home"
+        icon="@drawable/ic_inbox_black_24dp"
+        title="Home" />
+    <tab
+        id="@+id/tab_inbox"
+        icon="@drawable/ic_inbox_black_24dp"
+        title="Inbox" />
+    <tab
+        id="@+id/tab_query"
+        icon="@drawable/ic_inbox_black_24dp"
+        title="Query" />
+    <tab
+        id="@+id/tab_notify"
+        icon="@drawable/ic_inbox_black_24dp"
+        title="Notification" />
+    <tab
+        id="@+id/tab_profile"
+        icon="@drawable/ic_inbox_black_24dp"
+        title="Profile" />
+</tabs>

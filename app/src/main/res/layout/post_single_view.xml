@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/post_single_grand"
+    android:layout_width="match_parent"
+    android:layout_height="680dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="15dp"
+    android:background="@color/colorBottomNavigationActiveColored"
+    android:orientation="vertical">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/face" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="11dp"
+        android:layout_toEndOf="@+id/circleImageView"
+        android:text="Paul Mitra"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/circleImageView"
+        android:background="@android:drawable/gallery_thumb"
+        android:id="@+id/linearLayout3">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:id="@+id/scrollView2"
+                android:layout_width="220dp"
+                android:layout_height="100dp">
+
+                <TextView
+                    android:id="@+id/question_queMsg"
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:text="que no:3"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="20dp" />
+            </ScrollView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignEnd="@+id/textView6"
+                android:text="Asked by BITTU0812"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/question_thumbImage"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/important_articals" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/post_single_apostmsg"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@id/linearLayout3"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+    <ImageView
+        android:id="@+id/post_single_apostImage"
+        android:layout_width="320dp"
+        android:layout_height="300dp"
+        android:layout_alignStart="@+id/post_single_apostmsg"
+        android:layout_below="@+id/post_single_apostmsg"
+        android:layout_marginTop="13dp"
+        app:srcCompat="@color/colorBottomNavigationAccent" />
+
+    <LinearLayout
+        android:layout_below="@id/post_single_apostImage"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout4">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_favorite_border_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+
+                android:text="like"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+               android:layout_marginLeft="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/writepost_save"
+                android:src="@drawable/ic_save_black_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="save"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@drawable/ic_save_black_24dp"
+                android:layout_marginLeft="6dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="comment"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:textSize="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/linearLayout4"
+        android:text="#Vedant_2903 but sir the answer given is B" />
+
+
+</RelativeLayout>

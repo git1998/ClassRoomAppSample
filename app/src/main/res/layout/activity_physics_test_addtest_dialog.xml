@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+
+    android:layout_gravity="center"
+    android:background="?android:attr/colorForeground">
+
+
+    <EditText
+        android:id="@+id/addtest_testname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/addtest_numberofquestions"
+        android:layout_alignStart="@+id/addtest_numberofquestions"
+        android:layout_marginBottom="21dp"
+        android:hint="             test name               "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHint="@color/colorBottomNavigationInactive" />
+
+    <EditText
+        android:id="@+id/addtest_numberofquestions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="41dp"
+        android:hint="      number of questions       "
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textColorHint="@color/colorBottomNavigationInactive" />
+
+    <ImageView
+        android:id="@+id/addtest_nextbtn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/next_logo" />
+</RelativeLayout>

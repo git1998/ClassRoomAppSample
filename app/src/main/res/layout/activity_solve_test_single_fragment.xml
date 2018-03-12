@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBottomNavigationActiveColored">
+
+
+    <ScrollView
+        android:id="@+id/solveTest_ScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mtextView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorBottomNavigationInactive"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mtextView2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorBottomNavigationInactive"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/mtextView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@android:color/transparent"
+                    android:textColor="@android:color/black"
+                    android:textColorHint="@color/colorBottomNavigationInactive"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="200dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="10dp"
+                    android:visibility="gone" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/solveTest_OptionLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/linearLayout4"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/solveTest_RadioBtn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="A."
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/solveTest_OptiontextView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="100m/s"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/solveTest_OptionImage1"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/solveTest_OptionLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/solveTest_OptionLayout1"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/solveTest_RadioBtn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="B."
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/solveTest_OptiontextView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="100m/s"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/solveTest_OptionImage2"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/solveTest_OptionLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/solveTest_OptionLayout2"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/solveTest_RadioBtn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="C."
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/solveTest_OptiontextView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="100m/s"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/solveTest_OptionImage3"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/solveTest_OptionLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/solveTest_OptionLayout3"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@android:drawable/editbox_background"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/solveTest_RadioBtn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="D."
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="18dp" />
+
+
+                <TextView
+                    android:id="@+id/solveTest_OptiontextView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="8dp"
+                    android:text="100m/s"
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/solveTest_OptionImage4"
+                    android:layout_width="120dp"
+                    android:layout_height="100dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/solveTest_uploadedSolutionLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:id="@+id/solveTest_OfficialANswer"
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:src="@drawable/unavailablepostimage" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:drawable/editbox_background"
+        android:id="@+id/solveTest_postAnswerLayout"
+        android:visibility="gone">
+
+        <Button
+            android:id="@+id/solveTest_submitbtn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="submit"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:drawable/editbox_background"
+        android:visibility="gone"
+        android:id="@+id/solveTest_nextQuestionLayout">
+
+        <TextView
+            android:id="@+id/solveTest_ansrightwrong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:text="Right!"
+            android:textSize="18dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused" />
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_focused"/>
+
+        <ImageView
+            android:id="@+id/solveTest_viewSolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/textView13"
+            app:srcCompat="@drawable/ic_keyboard_arrow_down_black_18dp" />
+
+        <Button
+            android:id="@+id/solveTest_nextQuestionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="14dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:text="        next question       " />
+    </RelativeLayout>
+
+
+</RelativeLayout>
